@@ -131,7 +131,7 @@ public class ProgramRunner
 					p.setBurstTime(burstTime);
 				}
 				
-				//Using the algorithm you provided with some added parts (Yes i think it works better than my original monster code :P)
+				//Using the algorithm provided.
 				while(sum(processArrayList) != 0)//the sum function is defined below this main() method
 				{
 					p = processArrayList.get(index);//Gets the current process
